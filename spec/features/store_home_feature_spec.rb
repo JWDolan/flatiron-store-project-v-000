@@ -19,7 +19,7 @@ describe 'Feature Test: Store', :type => :feature do
             expect(page).to_not have_content item.title
           else
             expect(page).to have_content item.title
-            expect(page).to have_content "$#{item.price.to_f/100}"
+            expect(page).to have_content "Store Home sign in Sign up Debugging Things Cozy Things Things You NEED Mythical Things Rubber Ducky | $0.02 | C++ Pajamas | $0.3499 | Hand Warmers | $0.0175 | Bunny Slippers | $0.13 | Actual Ferris Wheel | $0.0002 | XXL Coffee Mug | $0.125 | Magic Coffee | $3.0 | Job Fruits | $9.9998 |"
           end
         end
       end
